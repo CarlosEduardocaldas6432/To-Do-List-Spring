@@ -1,0 +1,28 @@
+POST http://localhost:8080/todos
+Content-Type: application/json
+
+{
+  "nome": "Todo 1",
+  "descricao": "Desc Todo 1",
+  "prioridade": 1
+}
+
+
+### 
+GET http://localhost:8080/todos
+
+
+### 
+PUT  http://localhost:8080/todos
+Content-Type: application/json
+
+{
+  "id" :"2",
+  "nome": "Todo 2",
+  "descricao": "Desc Todo 2",
+  "prioridade": 2
+}
+
+
+### 
+DELETE  http://localhost:8080/todos/3
